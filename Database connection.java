@@ -9,7 +9,7 @@ public class Database
 	Database() throws SQLException {
 		String url = "jdbc:oracle:thin:@localhost:1521:xe";
 		String username = "system";
-		String password = "syam123";
+		String password = "sai123";
 		String query = "SELECT * from words";
 		
 		try
